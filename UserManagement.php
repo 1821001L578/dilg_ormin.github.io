@@ -126,7 +126,7 @@ class UserManagement extends CI_Controller
 
         if ($this->form_validation->run()) {
             $data = array(
-                'admin_id' => $user_id,
+                'admin_id' => $user_id,                                                                                        
                 'lastname' => $this->input->post('lastname'),
                 'firstname' => $this->input->post('firstname'),
                 'middlename' => $this->input->post('middlename'),
